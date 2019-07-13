@@ -1,6 +1,0 @@
-VMware RDM LUN Mapping for Microsoft Windows Fail-over clustering
-
-1. Get a LUN assigned from SAN
-2. Map it to 1 VM as RAW LUN
-3. Map it 2nd VM as existing Disk of the Mapped LUN (SCSI Identification should Match) and Compatibility Mode - Physical, SHaring Multi-Writer in both the VM's
-4. Open Failover Cluster from the server manger and go to storage and you'll be able to see the cluster disk. #clustering #vmware #microsoftwindows #failover
